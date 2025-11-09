@@ -73,18 +73,69 @@
     </div>
     <!-- Page Header End -->
 
-    <!-- Professor Section Start -->
+    <!-- Team Members Section Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="row align-items-start g-5">
-                <div class="col-lg-5 text-center">
-                    <img src="img/professor.jpg" class="img-fluid rounded shadow" alt="Professor Photo" style="max-height:400px;object-fit:cover;">
-                    <div class="mt-3">
-                        <h4 class="mb-2" style="color:#1976d2;">Assistant Professor</h4>
-                        <h6 class="mb-3" style="color:#666;">Department of Chemical Engineering</h6>
-                        <h6 class="mb-3" style="color:#666;">Carnegie Mellon University</h6>
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 700px;">
+                <h1 class="display-5 mb-3">Meet the Team</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-white text-center p-4 rounded shadow h-100">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#piModal" style="text-decoration: none; color: inherit; cursor: pointer;">
+                            <img src="img/PI.jpg" class="img-fluid rounded-circle mb-3" alt="P.I." style="width:150px;height:150px;object-fit:cover; cursor: pointer;">
+                            <h5 class="mb-1">Aisulu Aitbekova</h5>
+                            <span class="text-muted">Assistant Professor</span>
+                        </a>
                     </div>
+                </div>
+                <div class="col-md-4 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="bg-white text-center p-4 rounded shadow h-100">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#kyleModal" style="text-decoration: none; color: inherit; cursor: pointer;">
+                            <img src="img/student1.jpg" class="img-fluid rounded-circle mb-3" alt="Kyle Smith" style="width:150px;height:150px;object-fit:cover; cursor: pointer;">
+                            <h5 class="mb-1">Kyle Smith</h5>
+                            <span class="text-muted">Ph.D. Student</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="bg-white text-center p-4 rounded shadow h-100">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#liaModal" style="text-decoration: none; color: inherit; cursor: pointer;">
+                            <img src="img/student2.jpeg" class="img-fluid rounded-circle mb-3" alt="Lia Milionis" style="width:150px;height:150px;object-fit:cover; cursor: pointer;">
+                            <h5 class="mb-1">Lia Milionis</h5>
+                            <span class="text-muted">Ph.D. Student</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team Members Section End -->
+
+    <!-- Modal for P.I. -->
+    <div class="modal fade" id="piModal" tabindex="-1" aria-labelledby="piModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="piModalLabel">Aisulu Aitbekova</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center mb-4">
+                        <img src="img/PI.jpg" class="img-fluid rounded-circle mb-3" alt="Aisulu Aitbekova" style="width:150px;height:150px;object-fit:cover;">
+                        <h4 style="color:#1976d2;">Assistant Professor</h4>
+                        <p class="text-muted">Department of Chemical Engineering<br>Carnegie Mellon University</p>
+                    </div>
+                    <p style="font-size:1.1rem; line-height:1.6; color:#333;">Aisulu is an Assistant Professor in Chemical Engineering at Carnegie Mellon University. Prior to joining CMU, she was a Kavli Nanoscience Institute Postdoctoral Fellow at the California Institute of Technology. She earned her Ph.D. in Chemical Engineering at Stanford University. Aisulu received her M.S. in Chemical Engineering Practice from the Massachusetts Institute of Technology and B.S. in Chemical Engineering from Nazarbayev University in Kazakhstan.</p>
                     <div class="mt-4">
+                        <h5 class="mb-2" style="color:#1976d2;">Education:</h5>
+                        <ul class="list-unstyled" style="font-size:1.1rem; line-height:1.6; color:#333;">
+                            <li class="mb-1"><strong>Ph.D.</strong> Chemical Engineering, Stanford University, 2021</li>
+                            <li class="mb-1"><strong>M.S.</strong> Chemical Engineering Practice, MIT, 2016</li>
+                            <li class="mb-1"><strong>B.S.</strong> Chemical Engineering, Nazarbayev University, 2015</li>
+                        </ul>
+                    </div>
+                    <div class="text-center mt-4">
                         <a href="#" class="mx-2" title="Google Scholar" style="color: #1976d2; font-size: 1.5rem;">
                             <i class="fas fa-graduation-cap"></i>
                         </a>
@@ -96,55 +147,47 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-7">
-                    <h2 class="mb-3" style="color:#1976d2;">Principal Investigator</h2>
-                    <p style="font-size:1.1rem; line-height:1.6; color:#333;">Aisulu is an Assistant Professor in Chemical Engineering at Carnegie Mellon University. Prior to joining CMU, she was a Kavli Nanoscience Institute Postdoctoral Fellow at the California Institute of Technology. She earned her Ph.D. in Chemical Engineering at Stanford University. Aisulu received her M.S. in Chemical Engineering Practice from the Massachusetts Institute of Technology and B.S. in Chemical Engineering from Nazarbayev University in Kazakhstan.</p>
-                    
-                    <div class="mt-4">
-                        <h5 class="mb-2" style="color:#1976d2;">Education:</h5>
-                        <ul class="list-unstyled" style="font-size:1.1rem; line-height:1.6; color:#333;">
-                            <li class="mb-1"><strong>Ph.D.</strong> Chemical Engineering, Stanford University, 2021</li>
-                            <li class="mb-1"><strong>M.S.</strong> Chemical Engineering Practice, MIT, 2016</li>
-                            <li class="mb-1"><strong>B.S.</strong> Chemical Engineering, Nazarbayev University, 2015</li>
-                        </ul>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
-    <!-- Professor Section End -->
 
-    <!-- Team Members Section Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-4 justify-content-center">
-                <div class="col-md-6 col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="bg-white text-center p-4 rounded shadow h-100">
-                        <img src="img/student1.jpg" class="img-fluid rounded-circle mb-3" alt="Kyle" style="width:150px;height:150px;object-fit:cover;">
-                        <h5 class="mb-1">Kyle</h5>
-                        <span class="text-muted">Ph.D. Student</span>
-                    </div>
+    <!-- Modal for Kyle -->
+    <div class="modal fade" id="kyleModal" tabindex="-1" aria-labelledby="kyleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="kyleModalLabel">Kyle Smith</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="col-md-6 col-lg-5 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="bg-white text-center p-4 rounded shadow h-100">
-                        <img src="img/student2.jpeg" class="img-fluid rounded-circle mb-3" alt="Lia" style="width:150px;height:150px;object-fit:cover;">
-                        <h5 class="mb-1">Lia</h5>
-                        <span class="text-muted">Ph.D. Student</span>
+                <div class="modal-body">
+                    <div class="text-center mb-4">
+                        <img src="img/student1.jpg" class="img-fluid rounded-circle mb-3" alt="Kyle Smith" style="width:150px;height:150px;object-fit:cover;">
+                        <h4 style="color:#1976d2;">Ph.D. Student</h4>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-5 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="bg-white text-center p-4 rounded shadow h-100">
-                        <div class="bg-light rounded-circle mb-3 mx-auto d-flex align-items-center justify-content-center" style="width:150px;height:150px;">
-                            <i class="fas fa-user-plus fa-3x text-muted"></i>
-                        </div>
-                        <h5 class="mb-1">This could be you!</h5>
-                        <span class="text-muted">Join our team</span>
-                    </div>
+                    <p style="font-size:1.1rem; line-height:1.6; color:#333;">Kyle obtained his bachelor's degree in chemical engineering from the University of Washington, where he researched plastic chemical recycling under Professor Julie Rorrer. Outside of research, Kyle enjoys exercising, playing magic the gathering, watching anime, listening to music, and putting as many animals into my pockets as I can while hiking.</p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Team Members Section End -->
+
+    <!-- Modal for Lia -->
+    <div class="modal fade" id="liaModal" tabindex="-1" aria-labelledby="liaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="liaModalLabel">Lia Milionis</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center mb-4">
+                        <img src="img/student2.jpeg" class="img-fluid rounded-circle mb-3" alt="Lia Milionis" style="width:150px;height:150px;object-fit:cover;">
+                        <h4 style="color:#1976d2;">Ph.D. Student</h4>
+                    </div>
+                    <p style="font-size:1.1rem; line-height:1.6; color:#333;">Lia got her bachelor's degree in chemical engineering and chemistry from Vanderbilt University where she conducted research under the supervision of Professor Lauren Buchanan. Her research focused on studying proteins with infrared spectroscopy. In her free time, she loves playing and listening to music, reading, and cooking with friends and family.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer Start -->
     <div class="container-fluid" style="background:#1976d2;">
