@@ -47,6 +47,11 @@
     opacity: 1;
 }
 
+#spinner .spinner-border {
+    color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+
 
 /*** Button ***/
 .btn {
