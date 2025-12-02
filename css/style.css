@@ -454,3 +454,32 @@ h1, h2, h3, h4, h5, h6 {
     background: var(--secondary);
     border-color: var(--secondary);
 }
+
+/*** Team Member Cards Hover Effect ***/
+.team-member-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(25, 118, 210, 0.2) !important;
+}
+
+.team-member-card img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member-card:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3);
+}
+
+.team-member-card a {
+    display: block;
+    transition: opacity 0.3s ease;
+}
+
+.team-member-card:hover a {
+    opacity: 0.95;
+}
+
