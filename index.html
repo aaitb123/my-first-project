@@ -80,8 +80,22 @@
 </div>
 
 <style>
-.no-wrap {
-    white-space: nowrap;
+@media (min-width: 768px) {
+    .no-wrap { white-space: nowrap; }
+}
+@media (max-width: 767.98px) {
+    .page-header {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        margin-top: 70px;
+        aspect-ratio: 16 / 9;
+        background-position: center center !important;
+        background-attachment: scroll !important;
+        background-size: cover !important;
+        display: flex;
+        align-items: center;
+    }
+    .page-header h1 { font-size: 2rem; }
 }
 </style>
 
